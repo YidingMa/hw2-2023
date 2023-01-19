@@ -104,7 +104,7 @@ body div{
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
-p.blue, h2.blue{
+div.blue p, div.blue h2{
     /*
     Use #C4C4C4 for the heading and paragraph text
      */
@@ -122,7 +122,7 @@ p.blue, h2.blue{
     margin-left: 50px;
     border-width: 0px 0px 2px 5px;
 }
-p.yellow{
+div.yellow p{
     /*
     Use #707070 for the paragraph tex
      */
@@ -135,18 +135,17 @@ p.yellow{
     A right margin of 50px;
     A  border of 5px on the right and 2px on the top;
      */
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
-
 footer{
     /*
     a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
     A 5px solid white border
      */
-    background-image: linear-gradient(to right,#000000,#0000ff,#0066ff,#000000 );
+    background-image: linear-gradient(to right,#000000,#0000ff 25%,#0066ff 70%,#000000 );
     border-width: 5px;
     border-style: solid;
 }
