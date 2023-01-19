@@ -8,7 +8,7 @@ body{
     font-family: Arial, Verdana;
     background-color: black;
     color: white;
-    margin: 20px 20px 20px 0px;
+    margin: 20px 20px 0px 20px;
 }
 h1{
     /*
@@ -52,7 +52,7 @@ img{
     /*width: 50%;*/
     /*the code from w3c end*/
 }
-div{
+body div{
     /*
     A flexible height of at least 125px tall
     Padding of 20px on all sides
@@ -104,7 +104,12 @@ div{
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
-
+p.blue, h2.blue{
+    /*
+    Use #C4C4C4 for the heading and paragraph text
+     */
+    color: #C4C4C4;
+}
 .yellow{
     /*
     Background color is hexadecimal value for yellow
@@ -117,7 +122,12 @@ div{
     margin-left: 50px;
     border-width: 0px 0px 2px 5px;
 }
-
+p.yellow{
+    /*
+    Use #707070 for the paragraph tex
+     */
+    color: #707070;
+}
 .green{
     /*
     The background color is a hexadecimal value for green  (You must use #00EB00, #008500, or #00D800)
@@ -130,6 +140,7 @@ div{
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
+
 footer{
     /*
     a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
@@ -146,8 +157,5 @@ footer p{
      */
     font-size: 20px;
     text-align: right;
-    /*padding: 15px 15px 15px;*/
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
+    padding: 15px 15px 15px 0;
 }
